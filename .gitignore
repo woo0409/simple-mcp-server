@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Claude settings (contains local config)
+.claude/settings.local.json
+
+# Config files with local settings
+claude_desktop_config.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
